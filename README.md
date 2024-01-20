@@ -7,9 +7,9 @@ so they are highly extendable. Content team should be able to create variations 
 engineering support only using UI.
 
 ## Usage
-1. Install dependencies: `npm install`
-2. Build the app: `npm run build`
-3. Start the app: `npm run start`
+1. Install dependencies: `yarn install`
+2. Build the app: `yarn build`
+3. Start the app: `yarn start`
 
 After these steps the app will start to run on http://localhost:1234
 
