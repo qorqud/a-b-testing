@@ -23,7 +23,7 @@ export class VariationService {
         this.loadVariationsForArticle()
         const variationIdFromCookie = this.getVariationIdForArticle()
         if (!variationIdFromCookie) {
-            this.setVariationIdCookieForArticle(this.generateRandomVariationId());
+            this.setVariationIdCookieForArticle(this.selectRandomVariationId());
         }
     }
 
@@ -52,7 +52,7 @@ export class VariationService {
         ];
     }
 
-    private generateRandomVariationId(): string {
+    private selectRandomVariationId(): string {
         const randomIndex = Math.floor(Math.random() * this.variations.length);
         return this.variations[randomIndex].id
     }
