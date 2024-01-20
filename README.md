@@ -6,6 +6,13 @@ Variation models and variation display logic are designed in such a flexible way
 so they are highly extendable. Content team should be able to create variations without
 engineering support only using UI.
 
+## Usage
+1. Install dependencies: `npm install`
+2. Build the app: `npm run build`
+3. Start the app: `npm run start`
+
+After these steps the app will start to run on http://localhost:1234
+
 ## A/B testing process
 Each user is assigned with a unique ID on app load
 and this ID is stored in the cookies for later use.
